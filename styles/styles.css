@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/ptsans-400.woff2) format(.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/ptsans-700.woff2) format(.woff2);
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    background-color:lavender;
+}
+.advantages{
+    color: #000000;
+    background-color: lavender;
+    background-image: url(/img/main-page/main-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
