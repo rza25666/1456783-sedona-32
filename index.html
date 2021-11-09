@@ -7,8 +7,8 @@
   </head>
   <body>
     <header class="main-header">
-      <nav calass="navigation">
-        <ul calass="navigation-list">
+      <nav class="navigation">
+        <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -19,79 +19,80 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
-        <a href="index.html">
+        <a class="header-logo" href="index.html">
           <Img src="img/sedonaLogo.png" class="main-logo" alt="логотип сайта Седона" Width="138" Height="65">
         </a>
-        <ul calass="navigation-user">
+        <ul class="navigation-user">
           <li class="navigation-user-item">
-            <button class="button">
+            <button class="user-button">
               <img src="img/icons/serch-icon.svg" class="serch-icon" alt="значок поиска">
               <span class="visually-hidden">Поиск</span>
             </button>
           </li>
           <li class="navigation-user-item">
-            <button class="button">
+            <button class="user-button">
               <img src="img/icons/favorit-icon.svg" class="favorit-icon" alt="значок избранного">
               <span class="visually-hidden">Избранное</span>
             </button>
           </li>
           <li class="navigation-user-item">
-            <a class="navigation-link" class="button" href="catalog.html">ХОЧУ СЮДА</a>
+            <a class="navigation-link-button"  href="catalog.html">ХОЧУ СЮДА</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main-container main-index">
-      <div class="page-container">
-      <img src="img/welcome.svg" class="welcome" alt="добро пожаловать в Седону, потому что гранд каньен отстой" width="458" height="352">
+      <div class="welcome-img">
+        <img src="img/welcome.svg" class="welcome" alt="добро пожаловать в Седону, потому что гранд каньен отстой" width="458" height="352">
+      </div>
       <section class="about-sedona">
-        <h2>Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
-          <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          <div class="introduction">
+            <h2>Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
+            <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+          </div>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <h3>Настоящий городок</h3>
+            <p>-№1- Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            <img src="img/main-page/sedona-street-foto.jpg" class="sedona-street-foto" alt="Фотография улицы Седоны" width="800" height="384">
+              <ul class="ifrastructure-list">
+                <li class="ifrastructure-item">
+                  <img src="img/icons/hotels-icon.svg" class="hotels-icon" alt="значек отелей" width="75" height="72">
+                  <h3>Жильё</h3>
+                  <p>Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
+                </li>
+                <li class="ifrastructure-item">
+                  <img src="img/icons/food-icon.svg" class="food-icon" alt="значек ресторанов" width="74" height="70">
+                  <h3>Еда</h3>
+                  <p>Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!</p>
+                </li>
+                <li class="ifrastructure-item">
+                  <img src="img/icons/shops-icon.svg" class="shops-icon" alt="значек магазинов" width="64" height="76">
+                  <h3>Сувениры</h3>
+                  <p>Не только китайского,<br> но и настоящего местного<br> производства!</p>
+                </li>
+              </ul>
+          </li>
+          <li class="advantages-item">
+            <h3>Там есть мост дьявола</h3>
+            <p>-№2- Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img src="img/main-page/devils-bridge.jpg" class="devil's bridge" alt="Фотография моста дьявола" width="800" height="384">
+          </li>
+          <li class="advantages-item">
+            <h3>Небольшая площадь</h3>
+            <p>-№3- Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Красивая дорога</h3>
+            <p>-№4- Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages-item">
+            <h3>Мало туристов</h3>
+            <p>-№5- Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
       </section>
-      <section class="ifrastructure advantages">
-          <ul class="ifrastructure-list">
-            <li class="ifrastructure-item">
-              <h3>Настоящий городок</h3>
-              <p>-№1- Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-              <img src="img/main-page/sedona-street-foto.jpg" class="sedona-street-foto" alt="Фотография улицы Седоны" width="800" height="384">
-            </li>
-            <li class="ifrastructure-item">
-              <img src="img/icons/hotels-icon.svg" class="hotels-icon" alt="значек отелей" width="75" height="72">
-              <h3>Жильё</h3>
-              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            </li>
-            <li class="ifrastructure-item">
-              <img src="img/icons/food-icon.svg" class="food-icon" alt="значек ресторанов" width="74" height="70">
-              <h3>Еда</h3>
-              <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
-            </li>
-            <li class="ifrastructure-item">
-              <img src="img/icons/shops-icon.svg" class="shops-icon" alt="значек магазинов" width="64" height="76">
-              <h3>Сувениры</h3>
-              <p>Не только китайского, но и настоящего местного производства!</p>
-            </li>
-          </ul>
-          <ul class="advantages-list">
-            <li class="advantages-item">
-              <h3>Там есть мост дьявола</h3>
-              <p>-№2- Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-              <img src="img/main-page/devils-bridge.jpg" class="devil's bridge" alt="Фотография моста дьявола" width="800" height="384">
-            </li>
-            <li class="advantages-item">
-              <h3>Небольшая площадь</h3>
-              <p>-№3- Все достопримечательности находятся очень близко</p>
-            </li>
-            <li class="advantages-item">
-              <h3>Красивая дорога</h3>
-              <p>-№4- Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-            </li>
-            <li class="advantages-item">
-              <h3>Мало туристов</h3>
-              <p>-№5- Большинство едет в Гранд Каньон и толпится там</p>
-            </li>
-          </ul>
-      </section>
-      <section calss="found-hotel">
+      <section class="found-hotel">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a href="catalog.html" class="button">Поиск гостиницы в Седоне</a>
@@ -105,24 +106,23 @@
          <button type="submit" class="mailing" >Подписаться</button>
         </form>
       </section>
-      </div>
     </main>
     <footer class="main-footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button" href="https://twitter.com/htmlacademy_ru">
+          <a class="social-button" href="https://twitter.com/htmlacademy_ru">
             <img src="img/icons/twitter-icon.svg" class="twitter-icon" alt="Иконка Твиттера">
             <span class="visually-hidden">Twitter</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://www.facebook.com/htmlacademy">
+          <a class="social-button" href="https://www.facebook.com/htmlacademy">
             <img src="img/icons/fb-icon.svg" class="fb-icon" alt="Иконка Фэйсбук">
             <span class="visually-hidden">Facebook</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
+          <a class="social-button" href="https://www.youtube.com/c/HTMLAcademyRUS">
             <img src="img/icons/youtube-icon.svg" class="youtube-icon" alt="Иконка Ютуб">
             <span class="visually-hidden">Youtube</span>
           </a>
